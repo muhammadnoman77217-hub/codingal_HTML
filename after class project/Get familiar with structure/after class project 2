@@ -1,0 +1,16 @@
+<html>
+
+<head>
+    <title>My Schools's Webpage</title>
+</head>
+
+<body>
+    <h1>My school name is Peshawar Model School</h1>
+    <b> it is located in pakistan, kpk of nowshera</b><br>
+    <i>its number of students are above 30,000</i><br>
+    <u>this is underline</u><br>
+    <mark>It has competitions too</mark><br>
+    <del>it has 11 branches</del><br>
+</body>
+
+</html>
