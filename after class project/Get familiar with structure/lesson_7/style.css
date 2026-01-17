@@ -1,0 +1,19 @@
+*{
+    font-size: 30px;
+    font-weight: 500;
+}
+h3{
+    color: blue;
+}
+h4{
+    color: palevioletred;
+}
+.MYCLASS{
+    color: darkorange;
+}
+#MYID{
+    color: mediumpurple;
+}
+h5,P{
+    color: maroon;
+}
