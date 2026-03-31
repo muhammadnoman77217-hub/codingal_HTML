@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <h2>JavaScript Class</h2>
+        <p>How to use a JavaScript Class</p>
+        <p id="output1"></p>
+        <p id="output2"></p>
+        <p id="output3"></p>
+
+        <script>
+            class student {
+                constructor(name, year) {
+                    this.name = name;
+                    this.year = year;
+                }
+                age () {
+                    let date = new Date();
+                    return date.getFullYear() - this.year;
+                }
+            }
+            student1 = new student("Riya", 2014);
+            student2 = new student("Muhammad", 2012);
+            student3 = new student("Ayat", 2016);
+
+            document.getElementById("output1").innerHTML =
+            student1.name + " is " + student1.age() + "years old.";
+            document.getElementById("output2").innerHTML =
+            student2.name + " is " + student2.age() + "years old.";
+            document.getElementById("output3").innerHTML =
+            student3.name + " is " + student3.age() + "years old.";
+        </script>
+    </body>
+</html>
