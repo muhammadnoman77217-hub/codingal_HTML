@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>JSON in HTMl</title>
+    </head>
+    <body>
+        <h2>
+            Converta JavaScript object into a JSON string, and send to the server.
+        </h2>
+        <p id="result"></p>
+        <script>
+            var mydata={name:"Muhammad",age:26,city:"new york"}
+            var myjson=JSON.stringify(mydata)
+
+            var newdata=JSON.parse(myjson)
+            document.getElementById("result").innerHTML=newdata.name;
+        </script>
+    </body>
+</html>
