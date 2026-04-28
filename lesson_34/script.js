@@ -9,4 +9,5 @@ function palindrome(mystring){
         document.write ("<div>"+mystring+" is not a palindrome</div>")
     }
 }
-palindrome("madam")
+var world = prompt("Enter a word to check if it is a palindrome")
+palindrome(world);
