@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Sliders in Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <img class="mySlides" src="https://4kwallpapers.com/images/walls/thumbs/23027.jpg">
+            <img class="mySlides" src="https://pbs.twimg.com/media/GoZkGUlWgAAT3l8.jpg">
+            <img class="mySlides" src="https://wallpapers.com/images/featured/anime-dbt18qjb7b1cstr1.jpg">
+            <img class="mySlides" src="https://images.alphacoders.com/598/thumb-1920-598846.jpg">
+            <img class="mySlides" src="https://images.alphacoders.com/102/thumb-1920-1021969.jpg">
+        </section>
+        <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) (myIndex = 1)
+                x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 1000);
+            }
+        </script>
+    </body>
+</html>
